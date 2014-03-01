@@ -2,9 +2,9 @@
 // Sal Sodano
 // www.salscode.com
 
-require("dnsbllookup.php");
+require("rblcheck.php");
 
-$blockedList = dnsbllookup("1.2.3.4");
+$blockedList = rblcheck("1.2.3.4");
 if(count($blockedList) > 0)
 {
 	// Your IP is blocked somewhere.

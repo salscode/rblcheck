@@ -2,10 +2,10 @@
 // Sal Sodano
 // www.salscode.com
 
-if(!function_exists("dnsbllookup"))
+if(!function_exists("rblcheck"))
 {
 	// Lookup IPv4 IPs on a set of blacklists.
-	function dnsbllookup($ip)
+	function rblcheck($ip)
 	{
 		$blacklists = array(
 			"0spam.fusionzero.com",
